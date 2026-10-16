@@ -1,0 +1,11 @@
+{
+  "pregunta": "¿Qué preguntas caerán en la siguiente convocatoria?",
+  "historial": [
+    {"role": "user", "content": "¿Qué preguntas se repiten más?"},
+    {"role": "assistant", "content": "En la muestra ficticia se repiten los conceptos de SQL y subredes IPv4."},
+    {"role": "user", "content": "¿Cuáles son las más probables en función de las anteriores?"},
+    {"role": "assistant", "content": "La muestra no permite calcular probabilidades fiables. Podemos orientar el estudio por recurrencia y aplicación práctica."},
+    {"role": "user", "content": "¿Qué no debo no saber?"},
+    {"role": "assistant", "content": "La guía del ejemplo propone comenzar por SQL, redes y control de acceso."}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "pregunta": "¿Cuáles son las más probables en función de las anteriores?",
+  "historial": [
+    {"role": "user", "content": "¿Qué preguntas se repiten más?"},
+    {"role": "assistant", "content": "En los dos cuestionarios JCyL ficticios se repiten SQL y subredes IPv4. Se repiten los conceptos, no necesariamente los enunciados."}
+  ]
+}

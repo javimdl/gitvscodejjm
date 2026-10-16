@@ -1,0 +1,233 @@
+[
+  {
+    "id": "DOC-01",
+    "titulo": "Cuestionario · Gestión Informática 2022",
+    "tipo": "Cuestionario",
+    "anio": 2022,
+    "origen": "JCyL",
+    "procedencia": "JCyL · ejemplo",
+    "temas": [
+      "SQL",
+      "Redes",
+      "Índices"
+    ],
+    "alcance": "Incluido en el recuento histórico: 1 de 2 cuestionarios JCyL.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "q18",
+        "ubicacion": "Pregunta 18 · página 5",
+        "tema": "SQL",
+        "texto": "¿Qué operación conserva todas las filas de la tabla izquierda aunque no exista coincidencia en la derecha? A) INNER JOIN. B) LEFT JOIN. C) CROSS JOIN. D) UNION."
+      },
+      {
+        "id": "q29",
+        "ubicacion": "Pregunta 29 · página 8",
+        "tema": "Redes",
+        "texto": "Una subred IPv4 convencional /26, excluidas las direcciones de red y difusión, permite 62 direcciones de host utilizables."
+      },
+      {
+        "id": "q41",
+        "ubicacion": "Pregunta 41 · página 11",
+        "tema": "Índices",
+        "texto": "Un índice puede acelerar determinadas consultas, a cambio de ocupar espacio y añadir trabajo a las operaciones de escritura."
+      }
+    ]
+  },
+  {
+    "id": "DOC-02",
+    "titulo": "Cuestionario · Gestión Informática 2024",
+    "tipo": "Cuestionario",
+    "anio": 2024,
+    "origen": "JCyL",
+    "procedencia": "JCyL · ejemplo",
+    "temas": [
+      "SQL",
+      "Redes",
+      "Seguridad"
+    ],
+    "alcance": "Incluido en el recuento histórico: 2 de 2 cuestionarios JCyL.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "q12",
+        "ubicacion": "Pregunta 12 · página 4",
+        "tema": "SQL",
+        "texto": "Con Departamentos como tabla izquierda, ¿qué unión conserva también los departamentos sin empleados? A) INNER JOIN. B) LEFT JOIN. C) CROSS JOIN. D) UNION."
+      },
+      {
+        "id": "q24",
+        "ubicacion": "Pregunta 24 · página 7",
+        "tema": "Redes",
+        "texto": "¿Cuántas direcciones de host utilizables tiene una subred IPv4 convencional /27, excluidas red y difusión? A) 16. B) 32. C) 30. D) 31."
+      },
+      {
+        "id": "q37",
+        "ubicacion": "Pregunta 37 · página 10",
+        "tema": "Seguridad",
+        "texto": "El principio de mínimo privilegio exige conceder: A) Permisos de administrador. B) Solo los permisos necesarios. C) Acceso permanente. D) Los mismos permisos a todos."
+      }
+    ]
+  },
+  {
+    "id": "DOC-03",
+    "titulo": "Supuesto práctico · Servicio de soporte TIC",
+    "tipo": "Práctico",
+    "anio": 2024,
+    "origen": "JCyL",
+    "procedencia": "JCyL · ejemplo",
+    "temas": [
+      "SQL",
+      "Redes",
+      "Seguridad"
+    ],
+    "alcance": "Contexto práctico. No se cuenta como cuestionario en las frecuencias.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "p1",
+        "ubicacion": "Supuesto 1 · apartado A · página 2",
+        "tema": "SQL",
+        "texto": "Obtener todos los departamentos y el número de incidencias asociadas, incluyendo departamentos sin incidencias. Las tablas se relacionan por departamento_id."
+      },
+      {
+        "id": "p2",
+        "ubicacion": "Supuesto 1 · apartado B · página 3",
+        "tema": "Redes",
+        "texto": "Dividir una red en subredes /27 e identificar dirección de red, difusión e intervalo de hosts de cada subred."
+      },
+      {
+        "id": "p3",
+        "ubicacion": "Supuesto 1 · apartado C · página 4",
+        "tema": "Seguridad",
+        "texto": "Definir roles de lectura, operación y administración. Justificar la asignación de permisos mediante el principio de mínimo privilegio."
+      }
+    ]
+  },
+  {
+    "id": "DOC-04",
+    "titulo": "Plantilla de respuestas · Cuestionario 2024",
+    "tipo": "Plantilla",
+    "anio": 2024,
+    "origen": "JCyL",
+    "procedencia": "JCyL · ejemplo",
+    "temas": [
+      "SQL",
+      "Redes",
+      "Seguridad"
+    ],
+    "alcance": "Respuestas de ejemplo vinculadas exclusivamente a DOC-02.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "r12",
+        "ubicacion": "Respuesta 12 · página 1",
+        "tema": "SQL",
+        "texto": "Pregunta 12: opción B — LEFT JOIN conserva los registros de la tabla izquierda."
+      },
+      {
+        "id": "r24",
+        "ubicacion": "Respuesta 24 · página 1",
+        "tema": "Redes",
+        "texto": "Pregunta 24: opción C — 30 hosts utilizables en una subred IPv4 convencional /27."
+      },
+      {
+        "id": "r37",
+        "ubicacion": "Respuesta 37 · página 2",
+        "tema": "Seguridad",
+        "texto": "Pregunta 37: opción B — Solo los permisos necesarios para la tarea."
+      }
+    ]
+  },
+  {
+    "id": "DOC-05",
+    "titulo": "Cuestionario complementario · Administración local",
+    "tipo": "Cuestionario",
+    "anio": 2023,
+    "origen": "Local",
+    "procedencia": "Adm. local · ejemplo",
+    "temas": [
+      "SQL",
+      "Seguridad"
+    ],
+    "alcance": "Material de otra administración. Excluido del recuento histórico JCyL.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "q09",
+        "ubicacion": "Pregunta 9 · página 3",
+        "tema": "SQL",
+        "texto": "WHERE filtra filas antes de la agrupación. HAVING permite aplicar condiciones a los grupos resultantes de GROUP BY."
+      },
+      {
+        "id": "q22",
+        "ubicacion": "Pregunta 22 · página 6",
+        "tema": "Seguridad",
+        "texto": "La autenticación multifactor combina factores de categorías distintas; dos contraseñas no constituyen dos factores."
+      }
+    ]
+  },
+  {
+    "id": "DOC-06",
+    "titulo": "Guía de estudio · Datos, redes y seguridad",
+    "tipo": "Temario",
+    "anio": 2024,
+    "origen": "Cauce",
+    "procedencia": "Material didáctico",
+    "temas": [
+      "SQL",
+      "Redes",
+      "Seguridad"
+    ],
+    "alcance": "Síntesis didáctica de la maqueta. No representa el temario oficial.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "t1",
+        "ubicacion": "Bloque 1 · apartado 1.2",
+        "tema": "SQL",
+        "texto": "LEFT JOIN conserva las filas de la tabla izquierda. COUNT(i.id) no cuenta los valores NULL y permite obtener cero incidencias en un departamento sin coincidencias. WHERE filtra filas; GROUP BY agrupa y HAVING filtra grupos."
+      },
+      {
+        "id": "t2",
+        "ubicacion": "Bloque 2 · apartado 2.1",
+        "tema": "Redes",
+        "texto": "En una subred IPv4 convencional /27 hay 32 direcciones: una de red, una de difusión y 30 utilizables por hosts. En 192.168.10.0/27, la red es .0, la difusión .31 y los hosts van de .1 a .30."
+      },
+      {
+        "id": "t3",
+        "ubicacion": "Bloque 3 · apartado 3.1",
+        "tema": "Seguridad",
+        "texto": "Autenticar comprueba la identidad; autorizar determina qué puede hacer esa identidad. El mínimo privilegio limita los permisos a los necesarios. Dos contraseñas siguen siendo un único tipo de factor."
+      }
+    ]
+  },
+  {
+    "id": "REG-01",
+    "titulo": "Registro de cobertura del repositorio de ejemplo",
+    "tipo": "Registro",
+    "anio": 2024,
+    "origen": "Cauce",
+    "procedencia": "Registro interno",
+    "temas": [
+      "Cobertura",
+      "Límites"
+    ],
+    "alcance": "Describe únicamente el contenido cargado en esta maqueta.",
+    "ficticio": true,
+    "fragmentos": [
+      {
+        "id": "c1",
+        "ubicacion": "Entrada 1 · alcance de la muestra",
+        "tema": "Cobertura",
+        "texto": "La muestra contiene seis documentos ficticios (DOC-01 a DOC-06). Solo DOC-01 y DOC-02 se utilizan para contar temas recurrentes en cuestionarios JCyL. DOC-05 es complementario y procede de una administración distinta."
+      },
+      {
+        "id": "c2",
+        "ubicacion": "Entrada 2 · límites de la consulta",
+        "tema": "Límites",
+        "texto": "Ninguno de los seis documentos de esta muestra contiene preguntas de un examen futuro. Este registro describe la cobertura del ejemplo; no acredita la existencia ni la ausencia de documentos fuera de la muestra."
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "fecha": "2026-10-16",
+  "consultas": [
+    {
+      "consulta": "tecnico de gestion informatica",
+      "url": "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/PlantillaBuscadorContenidos/1277227614255/Convocatoria/1277227637904/_?p0=false&p2=Convocatoria&tituloc=true&q=tecnico+de+gestion+informatica&aceptar=Buscar",
+      "titulo": "Buscador de convocatorias"
+    },
+    {
+      "consulta": "gestión informática",
+      "url": "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/PlantillaBuscadorContenidos/1277227614255/Convocatoria/1277227637904/_?p0=false&p2=Convocatoria&tituloc=true&q=gesti%C3%B3n+inform%C3%A1tica&aceptar=Buscar",
+      "titulo": "Buscador de convocatorias"
+    }
+  ],
+  "convocatorias": [
+    "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/Plantilla100Detalle/1246947697738/Convocatoria/1284573187214/Empleo",
+    "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/Plantilla100Detalle/1277227614255/Convocatoria/1284838424880/Empleo",
+    "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/Plantilla100Detalle/1277227614255/Convocatoria/1285340770431/Empleo",
+    "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/Plantilla100Detalle/1277227614255/Convocatoria/1285519771741/Empleo",
+    "https://empleopublico.jcyl.es/web/jcyl/EmpleoPublico/es/Plantilla100Detalle/1277227614255/Convocatoria/1285584370271/Empleo"
+  ],
+  "documentos_oficiales": 16,
+  "archivos_verificados": 16,
+  "fragmentos": 535,
+  "incidencias": [
+    {
+      "url": "https://empleopublico.jcyl.es/web/jcyl/binarios/1010/976/CUADERNILLOS%20EXAMEN%20Tecnico%20de%20gesti%C3%B3n%20inform%C3%A1tica%20PI.doc?blobheader=application%2Fmsword&blobheadername1=Cache-Control&blobheadername2=Expires&blobheadername3=Site&blobheadervalue1=no-store%2Cno-cache%2Cmust-revalidate&blobheadervalue2=0&blobheadervalue3=Portal_Informador&blobnocache=true",
+      "motivo": "Formato distinto de PDF; no se indexa sin conversión."
+    }
+  ]
+}
