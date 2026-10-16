@@ -1,0 +1,14 @@
+{
+  "paginas": 12,
+  "formato": "A4",
+  "capturas_en_paginas": [
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "imagenes_completas_con_pie": true,
+  "sin_paginas_vacias": true,
+  "clave_ausente_en_interfaz_y_entregable": true
+}
