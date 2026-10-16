@@ -61,6 +61,8 @@ Abre dos terminales en la carpeta del proyecto.
 uv run --locked python -m uvicorn cauce_oposiciones.api:app --reload --reload-dir src --host 127.0.0.1 --port 8000
 ```
 
+Antes de pasar a la interfaz, comprueba la API con las instrucciones de [Probar la API con curl](#probar-la-api-con-curl).
+
 **Terminal 2: interfaz en el puerto 5173.**
 
 ```powershell
@@ -75,6 +77,34 @@ npm.cmd run dev
 
 Vite reenvía `/api` a `http://127.0.0.1:8000` conservando el prefijo. El puerto 5173 es fijo: si está ocupado, Vite avisa en lugar de elegir otro.
 El proxy de desarrollo se aplica a `npm.cmd run dev`; `vite preview` solo previsualiza la compilación estática.
+
+## Probar la API con curl
+
+Con FastAPI arrancado, ejecuta primero estas peticiones al servidor Python. Usa `curl.exe` en PowerShell para invocar curl directamente.
+`--noproxy "*"` hace que las peticiones locales no pasen por el proxy corporativo.
+
+```powershell
+curl.exe --noproxy "*" --silent --show-error --fail-with-body -i http://127.0.0.1:8000/api/health
+curl.exe --noproxy "*" --silent --show-error --fail-with-body --output NUL --write-out "HTTP %{http_code}\n" http://127.0.0.1:8000/openapi.json
+curl.exe --noproxy "*" --silent --show-error --fail-with-body --output NUL --write-out "HTTP %{http_code}\n" http://127.0.0.1:8000/api/maquetas
+curl.exe --noproxy "*" --silent --show-error --output NUL --write-out "HTTP %{http_code}\n" http://127.0.0.1:8000/api/no-existe
+```
+
+Resultados esperados: `200` para las tres primeras peticiones y `404` para la ruta inexistente. `/api/health` debe devolver:
+
+```json
+{"status":"ok","service":"cauce-oposiciones"}
+```
+
+La última petición omite `--fail-with-body` porque su resultado esperado es un error HTTP 404.
+
+Después, con Vite también arrancado, comprueba el reenvío al mismo servidor Python:
+
+```powershell
+curl.exe --noproxy "*" --silent --show-error --fail-with-body -i http://127.0.0.1:5173/api/health
+```
+
+Debe devolver `200` y el mismo JSON. Así se verifica la conexión antes de trabajar en la interfaz.
 
 ## Comprobar la interfaz
 
